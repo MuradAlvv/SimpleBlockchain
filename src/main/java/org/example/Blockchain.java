@@ -37,6 +37,8 @@ public class Blockchain {
         }
     }
 
+    
+    //Mining proof of work
     private int mineProofOfWork(Block block){
         int proof = 0;
         while(!isValidProof(block,proof)){
